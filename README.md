@@ -10,6 +10,12 @@ This is a project for learning and collaborative purposes of IT Ternopil communi
 - add reviewers from the list of contributors of the repository
 - get at least 2 approvals to merge a pull request
 
+### This repository uses:
+
+- eslint recommended
+- prettier
+- conventional commits, see detail [here](https://www.conventionalcommits.org/en/v1.0.0/)
+
 ### As a plus:
 
 - add tests

@@ -1,0 +1,26 @@
+name: Code health checks
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  code_health:
+    name: Code health
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: /
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+      - name: Install root dependencies
+        run: npm ci
+        working-directory: .
+      - name: Lint code
+        run: npm run ci:lint
+      - name: Run unit tests
+        run: npm test

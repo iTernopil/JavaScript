@@ -8,6 +8,7 @@ This is a project for learning and collaborative purposes of IT Ternopil communi
 - add your changes in a separate branch
 - open a pull request
 - add reviewers from the list of contributors of the repository
+- wait for code health checks will pass
 - get at least 2 approvals to merge a pull request
 
 ### This repository uses:

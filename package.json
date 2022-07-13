@@ -1,0 +1,18 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "JavaScript project for learning and collaborative purposes of IT Ternopil community",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iTernopil/JavaScript.git"
+  },
+  "author": "nazmariam <fedirko.mary@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iTernopil/JavaScript/issues"
+  },
+  "homepage": "https://github.com/iTernopil/JavaScript#readme"
+}
